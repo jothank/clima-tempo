@@ -30,6 +30,7 @@ document.querySelector(".busca").addEventListener("submit", async (event) => {
     }
   } else {
     clearInfo();
+    showWarning("Digite algo...");
   }
 });
 
